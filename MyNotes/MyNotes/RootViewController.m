@@ -25,10 +25,10 @@
     self.tableView.delegate = self;
     
    
-    Note *noteOne = [[Note alloc] initWithTitleAndContent: @"note1" content:@"111111"];
-    Note *noteTwo = [[Note alloc] initWithTitleAndContent: @"note2" content:@"111111"];
-    Note *noteThree = [[Note alloc] initWithTitleAndContent: @"note3" content:@"111111"];
-  
+    Note *noteOne = [[Note alloc] initWithTitleAndContent: @"Grocery List" content:@"1. Bread"];
+    Note *noteTwo = [[Note alloc] initWithTitleAndContent: @"Airport" content:@"Pick mum up from airport"];
+    Note *noteThree = [[Note alloc] initWithTitleAndContent: @"Attend friend's wedding" content:@"15th October Wedding in Singapore"];
+   
     self.notes = [[NSMutableArray alloc]initWithObjects: noteOne, noteTwo, noteThree, nil];
     
     
