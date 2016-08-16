@@ -69,7 +69,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     ContentViewController *destination = segue.destinationViewController;
     
-    //links the proper row clicked to transfer the proper informaiton.
+    //links the proper row clicked to transfer the proper informaiton
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     destination.contentViewControllerArray = self.notes;
     Note *note = [self.notes objectAtIndex:indexPath.row];
